@@ -2,7 +2,7 @@
 #include "flatset/flatset.hpp"
 #include "filesystem/filesystem.hpp"
 #endif
-#ifdef ENABLE_YAML
+#ifdef ENABLE_YAML_CPP
 #include "yamlParser/yamlParser.hpp"
 #endif
 #include <iostream>
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
   std::cout << std::endl;
   #endif
 
-  #ifdef ENABLE_YAML
+  #ifdef ENABLE_YAML_CPP
   if ( argc == 2 )
   {
     const std::string yamlFile( argv[1] );
