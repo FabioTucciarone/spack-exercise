@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION "3.12")
 
-project("spackexample" VERSION 0.3.0)
+project("spackexample" VERSION 0.3.1)
 
 option(ENABLE_BOOST "Disable the Boost support of this package" ON)
 option(ENABLE_YAML_CPP "Disable the Boost support of this package" ON)
